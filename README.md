@@ -76,11 +76,12 @@ G = ({S,A}, {a,b}, {S->AS|A, A->SA|ab}, S).
 
 ## Question 6
 
-> Prove that the following language L is not context-free. L = {..}
+> Q1 Exam 3
+> Prove that the following language L is not context-free. L = {..} 
 
 $$
-\text{Exam 3 Spring 2008}\\quad
-L = [0^k 1^j 2^i \quad \text{|}\  i>j>k\geq 0]
+\text{Summer 2022}\\quad
+L = [a^{n+2} b^{n+1} b^n \quad \text{|}\  n\geq 0]
 $$
 
 - Leiss on Pumping Lemma (0:00 - 12:28) [[Video](https://www.youtube.com/watch?v=VVbsZKxvLM8)]
