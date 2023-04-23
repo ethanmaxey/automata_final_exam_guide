@@ -19,9 +19,30 @@
 
 > Construct a regulat expression over {a, b, c} for the language accepted by this nfa:
 
+$$
+\text{Summer 2022}\\quad
+$$
+
+Over {a, b, c}
+
+|               | a      | b      | c      |         |
+| ------------- |:------:|:------:|:------:|:-------:|
+| **A**         | B      | /      | /      |    0    |
+| **B**         | C      | /      | A      |    1    |
+| **C**         | /      | A, B   | /      |    0    |
+
+
+
+
 ## Question 2
 
 > Prove that the language L(G) is not regular where G is the following cfg: G = {...}. Note: You must first determine L(G)
+
+$$
+\text{Summer 2022}\\quad
+$$
+
+G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S). 
 
 ## Question 3
 
