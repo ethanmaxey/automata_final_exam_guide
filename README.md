@@ -92,14 +92,20 @@ $$
 
 ## Question 7
 
-> Consider the class {class} of all CFL whose words are ... over ... . (a) Is {class} countable? (b) Is the class {not class} countable where it consists of all languages over {..} that are not context free? (c) Is the class {..} intersection {...{ countable? For each question, you must give a precise argument substantiating your answer.
+> Consider the class {class} of all CFL whose words are ... over ... . (a) Is {class} countable? (b) Is the class {not class} countable where it consists of all languages over {..} that are not context free? (c) Is the class {..} intersection {...} countable? For each question, you must give a precise argument substantiating your answer.
+
+$$
+\text{Summer 2022}\\quad
+$$
+
+class = {EVENCFa}
 
 ## Question 8
 
 > Construct a Turing machine for the language in Question 1. L = {...}. Describe first in words what you are doing, then formulate the formal Turing machine.
 
 $$
-\text{Exam 3 Spring 2008}\\quad
+\text{Summer 2022}\\quad
 L = [0^k 1^j 2^i \quad \text{|}\  i>j>k\geq 0]
 $$
 
