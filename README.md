@@ -39,7 +39,7 @@ Over {a, b, c}
 > Prove that the language L(G) is not regular where G is the following cfg: G = {...}. Note: You must first determine L(G)
 
 $$
-\text{Summer 2022, over (0, 1)}\\quad
+\text{Summer 2022}\\quad
 $$
 
 G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S). 
@@ -49,7 +49,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 > Construct a reduced dfa for the following extended regular expresion over {..}: Note: You must first determine nfas for the simple regular expressions the handle the logic operator (intersection). The answer must then be reduced.
 
 $$
-\text{Summer 2022}\\quad
+\text{Summer 2022 \quad over (0, 1)}\\quad
 $$
 
 [(10*)* ∩ ¬(0*10*)]
@@ -58,10 +58,21 @@ $$
 
 > Construct a Chomsky normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all epsilon and unit productions.
 
+$$
+\text{Summer 2022}\\quad
+$$
+
+G = ({S,B}, {a,b,c,d}, {S->bSb|Ba, B->BdSc|S|ε}, S). 
+
 ## Question 5
 
 > Construct a Greibach normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all unit productions. You must derive all the productions for S and A; indicate how the result looks for S' and A'.
 
+$$
+\text{Summer 2022}\\quad
+$$
+
+G = ({S,A}, {a,b}, {S->AS|A, A->SA|ab}, S). 
 
 ## Question 6
 
