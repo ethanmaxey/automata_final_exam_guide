@@ -1,7 +1,7 @@
 # 🤖 Automata Final Study Guide
 
 ### New Questions
-9. Let L1 and L2 be arbitrary languages, subject to the specification in either (i) or (ii). Conisder the following questions: Q1, Q2.... etc 
+Q9. Let L1 and L2 be arbitrary languages, subject to the specification in either (i) or (ii). Conisder the following questions: Q1, Q2.... etc 
 
 ## 🔎 Question Navigation
 
@@ -17,6 +17,7 @@
 
 ## Question 1
 
+> Also from Exam 1 Question 4
 > Construct a regulat expression over {a, b, c} for the language accepted by this nfa:
 
 $$
@@ -36,6 +37,7 @@ Over {a, b, c}
 
 ## Question 2
 
+> Also from Exam 2 Question 1
 > Prove that the language L(G) is not regular where G is the following cfg: G = {...}. Note: You must first determine L(G)
 
 $$
@@ -46,6 +48,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 
 ## Question 3
 
+> Also from Exam 2 Question 3
 > Construct a reduced dfa for the following extended regular expresion over {..}: Note: You must first determine nfas for the simple regular expressions the handle the logic operator (intersection). The answer must then be reduced.
 
 $$
@@ -56,6 +59,7 @@ $$
 
 ## Question 4
 
+> Also from Exam 2 Question 4
 > Construct a Chomsky normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all epsilon and unit productions.
 
 $$
@@ -66,6 +70,8 @@ G = ({S,B}, {a,b,c,d}, {S->bSb|Ba, B->BdSc|S|ε}, S).
 
 ## Question 5
 
+
+> Also from Exam 2 Question 4
 > Construct a Greibach normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all unit productions. You must derive all the productions for S and A; indicate how the result looks for S' and A'.
 
 $$
@@ -76,7 +82,7 @@ G = ({S,A}, {a,b}, {S->AS|A, A->SA|ab}, S).
 
 ## Question 6
 
-> Q1 Exam 3
+> Also from Exam 3 Q1
 > Prove that the following language L is not context-free. L = {..} 
 
 $$
@@ -92,6 +98,7 @@ $$
 
 ## Question 7
 
+> Also from Exam 1 Question 2
 > Consider the class {class} of all CFL whose words are ... over ... . (a) Is {class} countable? (b) Is the class {not class} countable where it consists of all languages over {..} that are not context free? (c) Is the class {..} intersection {...} countable? For each question, you must give a precise argument substantiating your answer.
 
 $$
@@ -102,6 +109,7 @@ class = {EVENCFa}
 
 ## Question 8
 
+> Also from Exam 3 Question 5
 > Construct a Turing machine for the language in Question 1. L = {...}. Describe first in words what you are doing, then formulate the formal Turing machine.
 
 $$
