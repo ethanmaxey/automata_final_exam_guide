@@ -106,7 +106,7 @@ class = {EVENCFa}
 
 $$
 \text{Summer 2022}\\quad
-L = [0^k 1^j 2^i \quad \text{|}\  i>j>k\geq 0]
+L = [a^{n+2} b^{n+1} b^n \quad \text{|}\  n\geq 0]
 $$
 
 [[Turing Machine Creator Website](https://turingmachine.io/)]
