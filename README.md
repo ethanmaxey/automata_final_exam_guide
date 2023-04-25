@@ -55,7 +55,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 > Construct a reduced dfa for the following extended regular expresion over {..}: Note: You must first determine nfas for the simple regular expressions the handle the logic operator (intersection). The answer must then be reduced.
 
 - Use [[this](https://cyberzhg.github.io/toolbox/nfa2dfa)] link to help convert regex to nfa.
-
+- Use https://aswaddev.github.io/dfa-minimizer/ to reduce your final DFA
 $$
 \text{Summer 2022 \quad over (0, 1)}\\quad
 $$
