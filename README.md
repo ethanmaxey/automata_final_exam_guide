@@ -69,6 +69,8 @@ $$
 
 > Construct a Chomsky normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all epsilon and unit productions.
 
+Removal of epsilon productions video: https://www.youtube.com/watch?v=mlXYQ8ug2v4
+
 $$
 \text{Summer 2022}\\quad
 $$
