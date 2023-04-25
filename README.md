@@ -56,6 +56,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 
 - Use [[this](https://cyberzhg.github.io/toolbox/nfa2dfa)] link to help convert regex to nfa.
 - Use https://aswaddev.github.io/dfa-minimizer/ to reduce your final DFA
+
 $$
 \text{Summer 2022 \quad over (0, 1)}\\quad
 $$
