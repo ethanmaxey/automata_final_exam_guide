@@ -54,7 +54,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 
 > Construct a reduced dfa for the following extended regular expresion over {..}: Note: You must first determine nfas for the simple regular expressions the handle the logic operator (intersection). The answer must then be reduced.
 
-- Use [[this link](https://cyberzhg.github.io/toolbox/nfa2dfa)] to help convert regex to nfa.
+- Use [[this](https://cyberzhg.github.io/toolbox/nfa2dfa)] link to help convert regex to nfa.
 
 $$
 \text{Summer 2022 \quad over (0, 1)}\\quad
@@ -74,9 +74,9 @@ $$
 
 G = ({S,B}, {a,b,c,d}, {S->bSb|Ba, B->BdSc|S|ε}, S). 
 
-## Question 5 (4/25)
+## Question 5
 
-> Also from Exam 2 Question 5
+> Also from Exam 2 Question 5 (4/25)
 
 > Construct a Greibach normal form grammar for L(G) for the following cfg G: G = {...} Note: You must first remove all unit productions. You must derive all the productions for S and A; indicate how the result looks for S' and A'.
 
