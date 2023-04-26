@@ -71,6 +71,8 @@ $$
 
 Removal of epsilon productions video: https://www.youtube.com/watch?v=mlXYQ8ug2v4
 
+Tool to convert a grammar directly to GNF (to double check): https://cyberzhg.github.io/toolbox/cfg2cnf
+
 $$
 \text{Summer 2022}\\quad
 $$
