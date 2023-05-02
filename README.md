@@ -54,7 +54,7 @@ G = ({S,A,B}, {a,b,c}, {S->Abb|b, A->aaS, B->c}, S).
 
 > Construct a reduced dfa for the following extended regular expresion over {..}: Note: You must first determine nfas for the simple regular expressions the handle the logic operator (intersection). The answer must then be reduced.
 
-- Use https://cyberzhg.github.io/toolbox/nfa2dfa/ to help convert regex to nfa.
+- Use https://cyberzhg.github.io/toolbox/nfa2dfa to help convert regex to nfa.
 - Use https://aswaddev.github.io/dfa-minimizer/ to reduce your final DFA
 
 $$
