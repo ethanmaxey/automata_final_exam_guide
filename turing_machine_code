@@ -1,0 +1,29 @@
+# https://turingmachine.io/
+input: 'aaabb' # Change this to the string you want to use
+blank: '$'
+start state: q0
+
+# this is for the problem { a^i b^j | i > j > 1 }
+# row:
+    # input: {middle of tuple, direction, state going to}
+
+table:
+  q0:
+    a: {write: A, R: q1}
+  q1:
+    a: {write: a, R: q1}
+    b: {write: B, L: q2}
+    B: {write: B, R: q1}
+  q2:
+    a: {write: a, L: q2}
+    A: {write: A, R: q3}
+    B: {write: B, L: q2}
+  q3:
+    a: {write: A, R: q4}
+  q4:
+    a: {write: a, R: q4}
+    b: {write: B, L: q2}
+    B: {write: B, R: q4}
+    '$': {write: '$', R: qf}
+  qf:
+  
