@@ -1,35 +1,32 @@
-# FROM RIGHT SIDE OF TAPE. STRING MUST BE INPUT AS REVERSED
-input: 'ccbbbaaaa' # Change this to the string you want to use
+input: 'aaaaaaabbbbbbbbbbb'
 blank: ' '
 start state: q0
-
-# row:
-    # input: {middle of tuple, direction, state going to}
-
 table:
-  q0:
-    c: {write: C, R: q1}
-  q1:
-    c: {write: c, R: q1}
-    b: {write: B, R: q2}
-    B: {write: B, R: q1}
-  q2:
-    a: {write: A, R: q3}
-    A: {write: A, R: q2}
-    b: {write: b, R: q2}
-  q3:
+  q0: # Find the first a for (n+2)
+    a: {write: A, R: q1}
+  q1: # Find the second a for (n+2)
+    a: {write: A, R: q2}
+  q2: # Find the first b for (n+1)
+    a: {write: a, R: q2}
+    b: {write: B, L: q3}
+  q3: # Go Left to First Capital A
     a: {write: a, L: q3}
     b: {write: b, L: q3}
-    c: {write: c, L: q3}
+    A: {write: A, R: q4}
     B: {write: B, L: q3}
-    A: {write: A, L: q3}
-    C: {write: C, R: q4}
-  q4:
-    c: {write: C, R: q1}
-    B: {write: B, R: q4}
-    b: {write: B, R: q5}
-  q5:
+  q4: # Find Right-most a
+  # If you find a capital B, keep going right until blank
     a: {write: A, R: q5}
-    A: {write: A, R: q5}
+    B: {write: B, R: q4}
     ' ': {write: ' ', R: qf}
+  q5: # Find Left-most b
+    a: {write: a, R: q5}
+    b: {write: B, R: q6}
+    B: {write: B, R: q5}
+  q6: # Find Next Left-most b
+    b: {write: B, L: q7}
+  q7: # Go Left to First Capital A
+    a: {write: a, L: q7}
+    A: {write: A, R: q4}
+    B: {write: B, L: q7}
   qf:
